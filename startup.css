@@ -1,0 +1,74 @@
+html{
+	/*to fix background*/
+	height: 100%;
+}
+
+body { 
+	padding-top: 70px; 
+	background: url(gene-raz-von-edler-gate-of-the-sun-by-ellysiumn-hd-1920-sp.jpg); 
+	background-size: cover;
+	background-position: center;
+	font-family: 'Lato', sans-serif;
+	color: #DADADA;
+	
+	/* background-position: center; */
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+h3{
+	font-weight: 400;
+	font-size: 2em;
+}
+
+hr{
+	background-color: #DADADA;
+	/*shadow under hr*/
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	width: 70%;
+}
+
+.a4p-logo{
+	border-radius: 50%;
+}
+
+.navbar{
+	font-weight: 700;	
+}
+
+.navbar-dark .navbar-brand{
+    color: #EAEAFA;
+}
+
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item,
+.navbar-dark .nav-item:focus .nav-link,
+.navbar-dark .nav-item:hover .nav-link  {
+    color: #EAEAFA;
+}
+
+.navbar-dark {
+    /*background-color: #4f3e70;*/
+    background-color: rgba(41,34,52,0.5);
+}
+
+.nav-item:hover{
+	background-color: #5A5A90;
+}
+
+.landing{
+	
+	/*color: #EAEAFA;*/
+}
+
+#content{
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(41,34,52,0.4),
+				 0px 8px 13px rgba(41,34,52,0.1),
+				 0px 18px 23px rgba(41,34,52,0.1);
+}
